@@ -10,6 +10,8 @@
 body {
     font-family: 'Poppins', sans-serif;
     overflow: hidden;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
 }
 
 .table{
@@ -61,8 +63,9 @@ input {
 }
 
 .table-section{
-    height:640px;
+    height:700px;
     overflow: auto;
+    
 }
 
 table{
